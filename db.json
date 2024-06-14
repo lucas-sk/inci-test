@@ -1,0 +1,42 @@
+{
+  "plataformas": [
+    {
+      "actionUrl": "https://soeducador.com.br/",
+      "imageUrl": "./src/assets/soEducadorLogo.svg"
+    },
+    {
+      "actionUrl": "https://estetus.com.br/",
+      "imageUrl": "./src/assets/estetusLogo.svg"
+    },
+    {
+      "actionUrl": "https://eduhot.com.br/",
+      "imageUrl": "./src/assets/eduhotLogo.svg"
+    },
+    {
+      "actionUrl": "https://educday.com.br/",
+      "imageUrl": "./src/assets/educdayLogo.svg"
+    },
+    {
+      "actionUrl": "https://google.com.br/",
+      "imageUrl": "./src/assets/zamplyLogo.svg"
+    }
+  ],
+  "ferramentas": [
+    {
+      "actionUrl": "https://mail.google.com/",
+      "imageUrl": "./src/assets/mailLogo.svg"
+    },
+    {
+      "actionUrl": "https://www.atlassian.com/br/software/jira",
+      "imageUrl": "./src/assets/jiraLogo.svg"
+    },
+    {
+      "actionUrl": "https://asana.com/pt",
+      "imageUrl": "./src/assets/asanaLogo.svg"
+    },
+    {
+      "actionUrl": "https://drive.google.com",
+      "imageUrl": "./src/assets/googleDriveLogo.svg"
+    }
+  ]
+}
