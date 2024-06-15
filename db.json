@@ -1,42 +1,69 @@
 {
-  "plataformas": [
+  "plataformas": {
+    "plataformas": [
     {
-      "actionUrl": "https://soeducador.com.br/",
-      "imageUrl": "./src/assets/soEducadorLogo.svg"
+      "id": "1",
+      "name": "SóEducador",
+      "url": "https://soeducador.com.br/",
+      "imageUrl": "./src/assets/soeducador-logo.svg"
     },
     {
-      "actionUrl": "https://estetus.com.br/",
-      "imageUrl": "./src/assets/estetusLogo.svg"
+      "id": "2",
+      "name": "Estetus",
+      "url": "https://estetus.com.br/",
+      "imageUrl": "./src/assets/estetus-logo.svg"
     },
     {
-      "actionUrl": "https://eduhot.com.br/",
-      "imageUrl": "./src/assets/eduhotLogo.svg"
+      "id": "3",
+      "name": "EduHot",
+      "url": "https://eduhot.com.br/",
+      "imageUrl": "./src/assets/eduhot-logo.svg"
     },
     {
-      "actionUrl": "https://educday.com.br/",
-      "imageUrl": "./src/assets/educdayLogo.svg"
+      "id": "4",
+      "name": "Edooker",
+      "url": "https://edooker.com.br/",
+      "imageUrl": "./src/assets/edooker-logo.svg"
     },
     {
-      "actionUrl": "https://google.com.br/",
-      "imageUrl": "./src/assets/zamplyLogo.svg"
-    }
-  ],
-  "ferramentas": [
-    {
-      "actionUrl": "https://mail.google.com/",
-      "imageUrl": "./src/assets/mailLogo.svg"
+      "id": "5",
+      "name": "EducDay",
+      "url": "https://educday.com.br/",
+      "imageUrl": "./src/assets/educday-logo.svg"
     },
     {
-      "actionUrl": "https://www.atlassian.com/br/software/jira",
-      "imageUrl": "./src/assets/jiraLogo.svg"
-    },
-    {
-      "actionUrl": "https://asana.com/pt",
-      "imageUrl": "./src/assets/asanaLogo.svg"
-    },
-    {
-      "actionUrl": "https://drive.google.com",
-      "imageUrl": "./src/assets/googleDriveLogo.svg"
+      "id": "6",
+      "name": "Zamply",
+      "url": "https://google.com.br/",
+      "imageUrl": "./src/assets/zamply-logo.svg"
     }
   ]
+  },
+  "ferramentas": {
+    "ferramentas": [
+    {
+      "id": "1",
+      "name": "E-Mail",
+      "url": "https://mail.google.com/",
+      "imageUrl": "./src/assets/mail-logo.svg"
+    },
+    {
+      "id": "2",
+      "name": "Jira",
+      "url": "https://www.atlassian.com/br/software/jira",
+      "imageUrl": "./src/assets/jira-logo.svg"
+    },
+    {
+      "id": "3",
+      "name": "Asana",
+      "url": "https://asana.com/pt",
+      "imageUrl": "./src/assets/asana-logo.svg"
+    },
+    {
+      "id": "4",
+      "name": "Google Drive",
+      "url": "https://drive.google.com",
+      "imageUrl": "./src/assets/google-drive-logo.svg"
+    }
+  ]}
 }
