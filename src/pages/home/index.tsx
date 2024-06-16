@@ -1,15 +1,17 @@
 import { Link } from 'react-router-dom'
 
-import alcanceImg from '@/assets/alcance-img.png'
 import inciLogo from '@/assets/inci.svg'
+import listAvatarImg from '@/assets/list-avatar.png'
 import listPeoplePhoto from '@/assets/list-people.png'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 
 export function Home() {
   return (
-    <div className="mx-auto min-h-screen max-w-screen-xl space-y-9">
-      <header className="flex py-7">
+    <div className="mx-auto min-h-screen max-w-screen-xl">
+      <div className="absolute -right-16 -top-28 h-1/2 w-1/2 rounded-xl bg-blue-600" />
+
+      <header className="relative flex py-7">
         <div className="flex gap-6">
           <img src={inciLogo} alt="" />
           <div className="flex gap-4">
@@ -42,23 +44,29 @@ export function Home() {
           </Button>
         </div>
       </header>
-      <main className="flex justify-between gap-32">
+      <main className="relative mt-9 flex justify-between gap-32">
         <div className="max-w-2xl space-y-6">
           <div className="space-y-4">
             <h1 className="text-7xl text-[#091C7A]">
               Preparando Pessoas{' '}
               <span className="font-bold">para o Futuro</span>
             </h1>
-            <p className="text-slate-700">
+            <p className="text-2xl text-slate-700">
               Soluções educacionais para a formação e desenvolvimento de pessoas
-              e instituições
+              e instituições.
             </p>
             <form className="flex gap-2">
               <Input type="text" placeholder="seuemail@gmail.com" />
               <Button className="bg-[#091C7A]">Entrar em Contato</Button>
             </form>
           </div>
-          <img src={alcanceImg} alt="" />
+          <div className="flex gap-2">
+            <img src={listAvatarImg} alt="" />
+            <div>
+              <p className="font-bold text-[#0C228F]">+11,8 mi 😯🤯</p>
+              <p className="text-[#2F50EE]">de Alcance</p>
+            </div>
+          </div>
         </div>
         <img src={listPeoplePhoto} alt="" />
       </main>
