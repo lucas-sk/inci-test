@@ -8,32 +8,32 @@ import { Input } from '@/components/ui/input'
 
 export function Home() {
   return (
-    <div className="min-h-screen space-y-9 max-w-screen-xl mx-auto">
-      <header className="py-7 flex">
+    <div className="mx-auto min-h-screen max-w-screen-xl space-y-9">
+      <header className="flex py-7">
         <div className="flex gap-6">
           <img src={inciLogo} alt="" />
           <div className="flex gap-4">
             <Button
               variant={'link'}
-              className="text-slate-500 hover:no-underline hover:text-slate-900 text-lg"
+              className="text-lg text-slate-500 hover:text-slate-900 hover:no-underline"
             >
               <Link to={'/'}>Nossos Serviços?</Link>
             </Button>
             <Button
               variant={'link'}
-              className="text-slate-500 hover:no-underline hover:text-slate-900 text-lg"
+              className="text-lg text-slate-500 hover:text-slate-900 hover:no-underline"
             >
               <Link to={'/'}>Quem Somos?</Link>
             </Button>
             <Button
               variant={'link'}
-              className="text-slate-500 hover:no-underline hover:text-slate-900 text-lg"
+              className="text-lg text-slate-500 hover:text-slate-900 hover:no-underline"
             >
               <Link to={'/'}>Nosso Time</Link>
             </Button>
           </div>
         </div>
-        <div className="flex gap-9 ml-auto">
+        <div className="ml-auto flex gap-9">
           <Button className="bg-[#091C7A] text-white hover:bg-[#3b5aa7]">
             Trabalhe conosco
           </Button>
@@ -43,9 +43,9 @@ export function Home() {
         </div>
       </header>
       <main className="flex justify-between gap-32">
-        <div className="space-y-6 max-w-2xl">
+        <div className="max-w-2xl space-y-6">
           <div className="space-y-4">
-            <h1 className="text-[#091C7A] text-7xl">
+            <h1 className="text-7xl text-[#091C7A]">
               Preparando Pessoas{' '}
               <span className="font-bold">para o Futuro</span>
             </h1>

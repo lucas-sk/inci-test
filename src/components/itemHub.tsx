@@ -8,7 +8,7 @@ interface ItemHubProps {
 
 export function ItemHub({ url, imageUrl, name }: ItemHubProps) {
   return (
-    <div className="space-y-6 w-[222px] h-[196px] p-5 flex justify-center items-center flex-col">
+    <div className="flex flex-col items-center justify-center space-y-6 p-5">
       <div className="flex flex-col items-center gap-2">
         <img src={imageUrl} alt="" />
         <p>{name}</p>
