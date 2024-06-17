@@ -43,28 +43,28 @@ export function SideBar() {
           </Button>
           <div className="space-y-12">
             <div className="flex flex-col gap-2">
-              <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500">
+              <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500 hover:bg-blue-900 hover:text-white">
                 <HomeIcon />
                 Início
               </Button>
-              <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500">
+              <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500 hover:bg-blue-900 hover:text-white">
                 <UsersIcon />
                 Alunos
               </Button>
 
-              <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500">
+              <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500 hover:bg-blue-900 hover:text-white">
                 <CircleDollarSignIcon />
                 Pagamentos
               </Button>
-              <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500">
+              <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500 hover:bg-blue-900 hover:text-white">
                 <CoursesIcon />
                 Cursos
               </Button>
-              <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500">
+              <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500 hover:bg-blue-900 hover:text-white">
                 <MessageCircleQuestionIcon />
                 Central de Ajuda
               </Button>
-              <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500">
+              <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500 hover:bg-blue-900 hover:text-white">
                 <AwardIcon />
                 Certificado impresso
               </Button>
@@ -72,26 +72,29 @@ export function SideBar() {
             <div className="space-y-4">
               <p>Ferramentas</p>
               <div className="flex flex-col gap-2">
-                <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500">
+                <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500 hover:bg-blue-900 hover:text-white">
                   <LadderIcon />
                   Recursos
                 </Button>
-                <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500">
+                <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500 hover:bg-blue-900 hover:text-white">
                   <AnalyticsIcon />
                   Analytics
                 </Button>
-                <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500">
+                <Button className="justify-start gap-2 bg-transparent px-2 text-gray-500 hover:bg-blue-900 hover:text-white">
                   <MegaphoneIcon />
                   Whats Push
                 </Button>
               </div>
             </div>
             <div className="flex flex-col gap-2">
-              <Button className="justify-start gap-2 bg-transparent px-2 text-[#8B98D1]">
+              <Button className="justify-start gap-2 bg-transparent px-2 text-[#8B98D1] hover:bg-[#8b98d1d0] hover:text-white">
                 <SettingsIcon />
                 Configuração
               </Button>
-              <Button className="justify-start gap-2 bg-transparent px-2 text-destructive">
+              <Button
+                variant={'destructive'}
+                className="justify-start gap-2 bg-transparent px-2 text-destructive hover:text-destructive-foreground"
+              >
                 <PowerIcon />
                 Sair
               </Button>
@@ -111,47 +114,77 @@ export function SideBar() {
           </Button>
           <div className="space-y-12">
             <div className="space-y-2">
-              <Button size={'icon'} className="bg-transparent text-gray-500">
+              <Button
+                size={'icon'}
+                className="bg-transparent text-gray-500 hover:bg-blue-900 hover:text-white"
+              >
                 <HomeIcon />
               </Button>
-              <Button size={'icon'} className="bg-transparent text-gray-500">
+              <Button
+                size={'icon'}
+                className="bg-transparent text-gray-500 hover:bg-blue-900 hover:text-white"
+              >
                 <UsersIcon />
               </Button>
 
-              <Button size={'icon'} className="bg-transparent text-gray-500">
+              <Button
+                size={'icon'}
+                className="bg-transparent text-gray-500 hover:bg-blue-900 hover:text-white"
+              >
                 <CircleDollarSignIcon />
               </Button>
-              <Button size={'icon'} className="bg-transparent text-gray-500">
+              <Button
+                size={'icon'}
+                className="bg-transparent text-gray-500 hover:bg-blue-900 hover:text-white"
+              >
                 <CoursesIcon />
               </Button>
-              <Button size={'icon'} className="bg-transparent text-gray-500">
+              <Button
+                size={'icon'}
+                className="bg-transparent text-gray-500 hover:bg-blue-900 hover:text-white"
+              >
                 <MessageCircleQuestionIcon />
               </Button>
-              <Button size={'icon'} className="bg-transparent text-gray-500">
+              <Button
+                size={'icon'}
+                className="bg-transparent text-gray-500 hover:bg-blue-900 hover:text-white"
+              >
                 <AwardIcon />
               </Button>
             </div>
             <div className="space-y-4">
               <p>Fe...</p>
               <div className="space-y-2">
-                <Button size={'icon'} className="bg-transparent text-gray-500">
+                <Button
+                  size={'icon'}
+                  className="bg-transparent text-gray-500 hover:bg-blue-900 hover:text-white"
+                >
                   <LadderIcon />
                 </Button>
-                <Button size={'icon'} className="bg-transparent text-gray-500">
+                <Button
+                  size={'icon'}
+                  className="bg-transparent text-gray-500 hover:bg-blue-900 hover:text-white"
+                >
                   <AnalyticsIcon />
                 </Button>
-                <Button size={'icon'} className="bg-transparent text-gray-500">
+                <Button
+                  size={'icon'}
+                  className="bg-transparent text-gray-500 hover:bg-blue-900 hover:text-white"
+                >
                   <MegaphoneIcon />
                 </Button>
               </div>
             </div>
             <div className="space-y-2">
-              <Button size={'icon'} className="bg-transparent text-[#8B98D1]">
+              <Button
+                size={'icon'}
+                className="bg-transparent text-[#8B98D1] hover:bg-[#8b98d1d0] hover:text-white"
+              >
                 <SettingsIcon />
               </Button>
               <Button
                 size={'icon'}
-                className="bg-transparent text-destructive hover:bg-transparent hover:text-destructive/90"
+                className="bg-transparent text-destructive hover:bg-destructive hover:text-destructive-foreground"
               >
                 <PowerIcon />
               </Button>

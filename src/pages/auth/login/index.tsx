@@ -9,7 +9,7 @@ export function Login() {
   return (
     <>
       <Helmet title="Login" />
-      <div className="max-h-screen w-screen space-y-[87px]">
+      <div className="max-h-screen w-screen space-y-[87px] font-sans antialiased">
         <header className="flex justify-center py-6">
           <img src={inciLogo} alt="" />
         </header>
@@ -30,7 +30,10 @@ export function Login() {
               <label htmlFor="password">senha</label>
               <input type="password" id="password" />
             </div>
-            <span>Esqueci a senha</span>
+
+            <Button variant={'link'} className="text-black hover:no-underline">
+              <Link to={'/'}>Esqueci a senha</Link>
+            </Button>
           </form>
 
           <div>
@@ -41,9 +44,7 @@ export function Login() {
               </p>
               <br />
               <Button variant={'link'}>
-                <Link className="text-blue-400 underline" to={'/'}>
-                  Saiba mais
-                </Link>
+                <Link to={'/'}>Saiba mais</Link>
               </Button>
             </div>
             <div className="flex flex-col text-center">

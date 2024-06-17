@@ -11,7 +11,7 @@ export function Home() {
   return (
     <>
       <Helmet title="Início" />
-      <div className="mx-auto min-h-screen max-w-screen-xl">
+      <div className="mx-auto min-h-screen max-w-screen-xl font-sans antialiased">
         <div className="absolute -right-16 -top-28 h-1/2 w-1/2 rounded-xl bg-blue-600" />
 
         <header className="relative flex py-7">
@@ -50,7 +50,7 @@ export function Home() {
         <main className="relative mt-9 flex justify-between gap-32">
           <div className="max-w-2xl space-y-6">
             <div className="space-y-4">
-              <h1 className="text-7xl text-[#091C7A]">
+              <h1 className="text-6xl text-[#091C7A]">
                 Preparando Pessoas{' '}
                 <span className="font-bold">para o Futuro</span>
               </h1>

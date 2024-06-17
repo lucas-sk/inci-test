@@ -19,7 +19,7 @@ export function Hub() {
   return (
     <>
       <Helmet title="Hub" />
-      <div className="w-full space-y-12">
+      <div className="w-full space-y-12 font-sans">
         <div className="space-y-4">
           <div className="space-y-2">
             <h2 className="text-2xl font-medium text-[#091C7A]">
@@ -29,13 +29,12 @@ export function Hub() {
           </div>
           <div className="grid auto-rows-[250px] grid-cols-4 gap-x-4 gap-y-2">
             {services?.plataformas?.map((service) => (
-              <div key={service.id} className="items-center">
-                <ItemHub
-                  name={service.name}
-                  imageUrl={service.imageUrl}
-                  url={service.url}
-                />
-              </div>
+              <ItemHub
+                name={service.name}
+                key={service.id}
+                imageUrl={service.imageUrl}
+                url={service.url}
+              />
             ))}
           </div>
         </div>

@@ -11,7 +11,7 @@ import { Label } from '@/components/ui/label'
 
 export function HubLayout() {
   return (
-    <div className="min-h-screen w-screen">
+    <div className="min-h-screen w-screen font-sans antialiased">
       <header className="bg-[#091C7A] px-12 py-6 text-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between">
           <div className="flex w-full gap-12">
